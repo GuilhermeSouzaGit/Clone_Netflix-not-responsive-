@@ -48,7 +48,7 @@ body {
 }
 .main {
     height: 750px;
-    width: 100vw;
+    width: 100%;
     background: url(../img/netflix-background.jpg) center;
     display: flex;
     align-items: center;
@@ -127,7 +127,7 @@ body {
     margin-bottom: 16px;
 }
 .section p {
-    font-size: 26px;
+    font-size: 27px;
 }
 .grid {
     display: grid;
@@ -149,4 +149,24 @@ body {
     height: 223px;
     top: 80px;
     left: 70px;
+}
+
+.download .grid > div:first-child {
+    order: 2;
+}
+
+.download .img-tv {
+    order: 1;
+}
+.device-pile .video-tv {
+    width: 320px;
+    top: 25px;
+    left: 100px;
+}
+.kids .grid > div:first-child {
+    order: 2;
+}
+
+.kids .img-tv {
+    order: 1;
 }
