@@ -49,7 +49,7 @@ body {
 .main {
     height: 750px;
     width: 100%;
-    background: url(../img/netflix-background.jpg) center;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/5ea364b1-8e59-4693-8ad8-f0eaee32d1bf/329c9f21-e3ff-4af2-9012-89e293573d83/BR-pt-20220530-popsignuptwoweeks-perspective_alpha_website_medium.jpg) center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,3 +170,11 @@ body {
 .kids .img-tv {
     order: 1;
 }
+/*.faq {
+    text-align: center;
+}
+@media only screen and (min-width: 600px){
+    .main {
+        width: 100vw;
+    }
+}*/
